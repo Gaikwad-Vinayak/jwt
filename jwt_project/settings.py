@@ -151,9 +151,9 @@ from firebase_admin import credentials
 RAZORPAY_API = ['RAZORPAY_API']
 RAZORPAY_SECRET = ['RAZORPAY_SECRET']
 
-FIREBASE_ADMIN_CREDENTIAL = os.path.join(BASE_DIR, '/home/vinayak/Downloads/fcmbackend-40d8a-firebase-adminsdk-ghol9-709dd7c1f1.json')
-cred = credentials.Certificate(FIREBASE_ADMIN_CREDENTIAL)
-FIREBASE_APP = firebase_admin.initialize_app(cred)
+# FIREBASE_ADMIN_CREDENTIAL = os.path.join(BASE_DIR, '/home/vinayak/Downloads/fcmbackend-40d8a-firebase-adminsdk-ghol9-709dd7c1f1.json')
+# cred = credentials.Certificate(FIREBASE_ADMIN_CREDENTIAL)
+# FIREBASE_APP = firebase_admin.initialize_app(cred)
 # FIREBASE_APP = initialize_app()
 # FIREBASE_CONFIG = {
 #     "apiKey": "AAAAGFk-Sb4:APA91bGzPk0RrJNCoFIUtujRiDoAwhyg2mRxUsjlYF4K14Tkp8R0NFDKf1RRTCpnMah3GJLUO5D1AFCILKhN1OzeQsojFR3NIbaTq9tspKrXadB2nYveCax8_UNKiJDW_1ERIlZ_fW-j",
